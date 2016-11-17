@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   delete '/patients/:id', to: 'patients#destroy'
 
   # doctors routes
-  resources :doctors, only: [:index]
+  resources :doctors, only: [:index, :create, :show, :update, :destroy]
 
   resources :users, only: [:index, :show]
 end

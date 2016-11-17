@@ -47,20 +47,20 @@ Doctor.create([
                   family_name: 'the Pollster',
                   specialty: 'Keeping us all caffinated' }
               ])
-#
-# Patient.create([
-#                  { name: 'Jeff Horn',
-#                    sickness: 'Too cool for school',
-#                    doctor_id: 2 },
-#                  { name: 'Chris Payne',
-#                    sickness: 'Way to excited',
-#                    doctor_id: 2 },
-#                  { name: 'Brian Berzellini',
-#                    sickness: 'Spooky Ghost' },
-#                  { name: 'Antony Donovan',
-#                    sickness: 'Robot Syndrome',
-#                    doctor_id: 1 },
-#                  { name: 'Jason Weeks',
-#                    sickness: 'Oddly large chest',
-#                    doctor_id: 4 }
-#                ])
+
+Patient.create([
+                 { name: 'Jeff Horn',
+                   sickness: 'Too cool for school',
+                   doctor_id: 2 },
+                 { name: 'Chris Payne',
+                   sickness: 'Way to excited',
+                   doctor_id: 2 },
+                 { name: 'Brian Berzellini',
+                   sickness: 'Spooky Ghost' },
+                 { name: 'Antony Donovan',
+                   sickness: 'Robot Syndrome',
+                   doctor_id: 1 },
+                 { name: 'Jason Weeks',
+                   sickness: 'Oddly large chest',
+                   doctor_id: 4 }
+               ])
