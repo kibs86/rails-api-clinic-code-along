@@ -16,3 +16,51 @@
 #                password: 'abc123',
 #                password_confirmation: nil)
 # end
+
+# Patient.create([
+#                  { name: 'Jeff Horn',
+#                    sickness: 'Too cool for school' },
+#                  { name: 'Chris Payne',
+#                    sickness: 'Way to excited' },
+#                  { name: 'Brian Berzellini',
+#                    sickness: 'Spooky Ghost' },
+#                  { name: 'Antony Donovan',
+#                    sickness: 'Robot Syndrome' },
+#                  { name: 'Jason Weeks',
+#                    sickness: 'Oddly large chest' }
+#                ])
+
+Doctor.create([
+                { given_name: 'Ben',
+                  family_name: 'Adamski',
+                  specialty: 'VapeKing' },
+                { given_name: 'Rachel',
+                  family_name: 'Stevens',
+                  specialty: 'Horse Enthusiast' },
+                { given_name: 'Julie',
+                  family_name: 'Carroll',
+                  specialty: 'Getting everyone jobs' },
+                { given_name: 'Lu',
+                  family_name: 'Nathan',
+                  specialty: 'iPhone guru' },
+                { given_name: 'Naida',
+                  family_name: 'the Pollster',
+                  specialty: 'Keeping us all caffinated' }
+              ])
+#
+# Patient.create([
+#                  { name: 'Jeff Horn',
+#                    sickness: 'Too cool for school',
+#                    doctor_id: 2 },
+#                  { name: 'Chris Payne',
+#                    sickness: 'Way to excited',
+#                    doctor_id: 2 },
+#                  { name: 'Brian Berzellini',
+#                    sickness: 'Spooky Ghost' },
+#                  { name: 'Antony Donovan',
+#                    sickness: 'Robot Syndrome',
+#                    doctor_id: 1 },
+#                  { name: 'Jason Weeks',
+#                    sickness: 'Oddly large chest',
+#                    doctor_id: 4 }
+#                ])
