@@ -1,3 +1,4 @@
 class Patient < ActiveRecord::Base
-  belongs_to :doctor
+  has_many :doctors, through: :appointments
+  has_many :appointments, dependent: :destroy
 end
